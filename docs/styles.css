@@ -781,8 +781,6 @@ body {
   width: 310px;
 }
 .logotipe-section img {
-  border: 2px solid #fff;
-  border-radius: 8px;
   padding: 5px 10px;
 }
 .nav-bar {
@@ -1493,9 +1491,16 @@ div.stockTicker span {
 }
 .content__item .first-img {
   padding-top: 10px;
+  padding-left: 5px;
 }
 .content__item .second-img {
-  padding-top: 25px;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-left: 5px;
+}
+.content__item .third-img {
+  padding-right: 20px;
+  padding-left: 5px;
 }
 .content__item .content__img {
   max-width: 110px;
@@ -1503,6 +1508,7 @@ div.stockTicker span {
 }
 .content__item h2 {
   text-align: center;
+  font-size: 18px;
   color: #fff;
   text-shadow: 3px 3px 4px black;
 }
@@ -1554,7 +1560,8 @@ div.stockTicker span {
   top: 85px;
   left: 25px;
   color: #fff;
-  border: 1px solid #ff0;
+  text-shadow: 3px 3px 2px black;
+  border: 1px solid #800080;
   border-radius: 3px;
   background-color: #151515;
   opacity: 0;
@@ -1634,11 +1641,11 @@ div.stockTicker span {
   margin-right: 30px;
 }
 .footer .content__second-block {
-  border-top: 1px solid #151515;
+  border-top: 3px solid #800080;
   padding: 30px 0;
 }
 .footer .content__bottom {
-  border-top: 1px solid #151515;
+  border-top: 3px solid #800080;
   padding-top: 30px;
 }
 @media all and (max-width: 1517px) {
@@ -1680,7 +1687,6 @@ div.stockTicker span {
     max-width: 405px;
     height: 200px;
     z-index: 4;
-    border: 3px solid #ff0;
     border-radius: 4%;
     padding: 5px;
   }
@@ -1723,7 +1729,6 @@ div.stockTicker span {
     max-width: 405px;
     height: 150px;
     z-index: 4;
-    border: 3px solid #ff0;
     border-radius: 4%;
     padding: 2px;
   }
@@ -1802,6 +1807,9 @@ div.stockTicker span {
     flex-direction: column;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  .arrow {
+    top: 86%;
   }
   .platform-block__column ul {
     margin: 0;
@@ -1907,7 +1915,7 @@ div.stockTicker span {
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin: 0;
+    margin-top: 55px;
     padding: 0;
     float: right;
   }
@@ -1933,7 +1941,7 @@ div.stockTicker span {
     height: 1180px;
   }
   .home_page-section .bottom-block {
-    padding-top: 250px;
+    padding-top: 293px;
   }
   .bottom-block {
     width: 100%;
@@ -2042,14 +2050,17 @@ div.stockTicker span {
     right: 60%;
     top: 240px;
   }
+  .arrow {
+    display: none;
+  }
   .content__block {
     height: 738px;
   }
   .home_page-section {
-    height: 1225px;
+    height: 1155px;
   }
   .home_page-section .bottom-block {
-    padding-top: 300px;
+    padding-top: 330px;
   }
 }
 @media all and (max-width: 618px) {

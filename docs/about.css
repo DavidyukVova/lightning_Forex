@@ -1536,8 +1536,6 @@ body {
   width: 310px;
 }
 .logotipe-section img {
-  border: 2px solid #fff;
-  border-radius: 8px;
   padding: 5px 10px;
 }
 .nav-bar {
@@ -1647,14 +1645,14 @@ body {
 .modalDialog .modal_content h2,
 .modalDialog .modal_content p {
   text-align: center;
-  color: #ff0;
+  color: #fff;
 }
 .modalDialog .name p {
   text-align: left;
   padding: 0;
   margin: 0;
   margin-bottom: 5px;
-  color: #ff0;
+  color: #fff;
 }
 .modalDialog .name .nameBlock {
   display: inline-block;
@@ -1676,7 +1674,7 @@ body {
   background-color: #eee;
 }
 .modalDialog .name .first_name label {
-  color: #ff0;
+  color: #fff;
   font-size: 12px;
   padding-top: 5px;
   /*  */
@@ -1697,7 +1695,7 @@ body {
   background-color: #eee;
 }
 .modalDialog .name .last_name label {
-  color: #ff0;
+  color: #fff;
   font-size: 12px;
   padding-top: 5px;
 }
@@ -2070,6 +2068,9 @@ body {
 .navigation__text a:hover {
   color: #000;
 }
+.navigation__text .active {
+  color: #000;
+}
 .widget {
   border: 1px solid #ccc;
   height: 23px;
@@ -2286,7 +2287,8 @@ div.stockTicker span {
   top: 85px;
   left: 25px;
   color: #fff;
-  border: 1px solid #ff0;
+  text-shadow: 3px 3px 2px black;
+  border: 1px solid #800080;
   border-radius: 3px;
   background-color: #151515;
   opacity: 0;
@@ -2366,11 +2368,11 @@ div.stockTicker span {
   margin-right: 30px;
 }
 .footer .content__second-block {
-  border-top: 1px solid #151515;
+  border-top: 3px solid #800080;
   padding: 30px 0;
 }
 .footer .content__bottom {
-  border-top: 1px solid #151515;
+  border-top: 3px solid #800080;
   padding-top: 30px;
 }
 @media all and (max-width: 1517px) {
@@ -2509,7 +2511,7 @@ div.stockTicker span {
     max-width: 600px;
   }
   .home_page-section {
-    height: 1200px;
+    height: 672px;
   }
   .home_page-section .bottom-block {
     padding-top: 50px;
@@ -2662,7 +2664,7 @@ div.stockTicker span {
     width: 160px;
   }
   .home_page-section {
-    height: 1180px;
+    height: 800px;
   }
   .home_page-section .bottom-block {
     padding-top: 250px;
@@ -2778,7 +2780,7 @@ div.stockTicker span {
     height: 738px;
   }
   .home_page-section {
-    height: 1225px;
+    height: 900px;
   }
   .home_page-section .bottom-block {
     padding-top: 300px;
@@ -2822,6 +2824,9 @@ div.stockTicker span {
   .home_page-block .bottomLink {
     display: none;
   }
+  .home_page-section {
+    height: 980px;
+  }
   .footer .footer__content {
     max-width: 400px;
   }
@@ -2837,6 +2842,16 @@ div.stockTicker span {
   }
   .content__block {
     margin-top: 50px;
+  }
+}
+@media all and (max-width: 510px) {
+  .home_page-section {
+    height: 1100px;
+  }
+}
+@media all and (max-width: 450px) {
+  .home_page-section {
+    height: 1200px;
   }
 }
 @media all and (max-width: 420px) {

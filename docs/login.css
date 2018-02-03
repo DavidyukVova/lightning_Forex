@@ -781,8 +781,6 @@ body {
   width: 310px;
 }
 .logotipe-section img {
-  border: 2px solid #fff;
-  border-radius: 8px;
   padding: 5px 10px;
 }
 .nav-bar {
@@ -1315,6 +1313,9 @@ body {
 .navigation__text a:hover {
   color: #000;
 }
+.navigation__text .active {
+  color: #000;
+}
 .widget {
   border: 1px solid #ccc;
   height: 23px;
@@ -1356,7 +1357,7 @@ div.stockTicker span {
 }
 .home_page-section {
   height: 588px;
-  background: url(assets/images/login.png) 40% 100% no-repeat;
+  background: url(assets/images/login2.jpg) 100% 20% no-repeat;
 }
 .home_page-block .text-block {
   margin: 0 auto;
@@ -1441,7 +1442,8 @@ div.stockTicker span {
   top: 85px;
   left: 25px;
   color: #fff;
-  border: 1px solid #ff0;
+  text-shadow: 3px 3px 2px black;
+  border: 1px solid #800080;
   border-radius: 3px;
   background-color: #151515;
   opacity: 0;
@@ -1521,11 +1523,11 @@ div.stockTicker span {
   margin-right: 30px;
 }
 .footer .content__second-block {
-  border-top: 1px solid #151515;
+  border-top: 3px solid #800080;
   padding: 30px 0;
 }
 .footer .content__bottom {
-  border-top: 1px solid #151515;
+  border-top: 3px solid #800080;
   padding-top: 30px;
 }
 @media all and (max-width: 1517px) {
@@ -1664,7 +1666,7 @@ div.stockTicker span {
     max-width: 600px;
   }
   .home_page-section {
-    height: 1200px;
+    height: 650px;
   }
   .home_page-section .bottom-block {
     padding-top: 50px;
@@ -1817,7 +1819,7 @@ div.stockTicker span {
     width: 160px;
   }
   .home_page-section {
-    height: 1180px;
+    height: 650px;
   }
   .home_page-section .bottom-block {
     padding-top: 250px;
@@ -1856,6 +1858,13 @@ div.stockTicker span {
   .nav-bar #nav1 li:hover ul {
     left: 0;
   }
+  .home_page-block .content-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+  }
   .platform-block .platform-block__middle {
     display: -ms-flexbox;
     display: flex;
@@ -1866,6 +1875,9 @@ div.stockTicker span {
   }
   .platform-block__column {
     margin: 20px;
+  }
+  .home_page-section {
+    height: 760px;
   }
   .footer .footer__content {
     max-width: 500px;
@@ -1933,7 +1945,7 @@ div.stockTicker span {
     height: 738px;
   }
   .home_page-section {
-    height: 1225px;
+    height: 770px;
   }
   .home_page-section .bottom-block {
     padding-top: 300px;

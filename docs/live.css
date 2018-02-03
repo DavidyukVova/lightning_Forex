@@ -781,8 +781,6 @@ body {
     width: 310px;
 }
 .logotipe-section img {
-    border: 2px solid #fff;
-    border-radius: 8px;
     padding: 5px 10px;
 }
 .nav-bar {
@@ -830,6 +828,9 @@ body {
     text-shadow: 2px 2px 3px black;
     cursor: pointer;
     margin: 0 15px;
+}
+.nav-bar .nav-bar__seccond-block .active {
+    color: #000;
 }
 .nav-bar .nav-bar__seccond-block .btn1 {
     background-color: #18a1ff;
@@ -1464,7 +1465,8 @@ div.stockTicker span {
     top: 85px;
     left: 25px;
     color: #fff;
-    border: 1px solid #ff0;
+    text-shadow: 3px 3px 2px black;
+    border: 1px solid #800080;
     border-radius: 3px;
     background-color: #151515;
     opacity: 0;
@@ -1544,11 +1546,11 @@ div.stockTicker span {
     margin-right: 30px;
 }
 .footer .content__second-block {
-    border-top: 1px solid #151515;
+    border-top: 3px solid #800080;
     padding: 30px 0;
 }
 .footer .content__bottom {
-    border-top: 1px solid #151515;
+    border-top: 3px solid #800080;
     padding-top: 30px;
 }
 @media all and (max-width: 1517px) {
@@ -1687,7 +1689,7 @@ div.stockTicker span {
         max-width: 600px;
     }
     .home_page-section {
-        height: 1200px;
+        height: 650px;
     }
     .home_page-section .bottom-block {
         padding-top: 50px;
@@ -1840,7 +1842,7 @@ div.stockTicker span {
         width: 160px;
     }
     .home_page-section {
-        height: 1180px;
+        height: 650px;
     }
     .home_page-section .bottom-block {
         padding-top: 250px;
@@ -1956,7 +1958,7 @@ div.stockTicker span {
         height: 738px;
     }
     .home_page-section {
-        height: 1225px;
+        height: 650px;
     }
     .home_page-section .bottom-block {
         padding-top: 300px;

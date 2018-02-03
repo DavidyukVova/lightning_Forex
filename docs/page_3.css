@@ -781,8 +781,6 @@ body {
   width: 310px;
 }
 .logotipe-section img {
-  border: 2px solid #fff;
-  border-radius: 8px;
   padding: 5px 10px;
 }
 .nav-bar {
@@ -1064,7 +1062,7 @@ body {
   margin: 7% auto;
   padding: 10px 15px 15px 15px;
   border-radius: 10px;
-  background: #151515;
+  background-image: url("./assets/images/background_heder.jpg");
 }
 .close1 {
   background: #606061;
@@ -1091,14 +1089,16 @@ body {
 .modalDialog1 .modal_content1 h2,
 .modalDialog1 .modal_content1 p {
   text-align: center;
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
 }
 .modalDialog1 .name1 p {
   text-align: left;
   padding: 0;
   margin: 0;
   margin-bottom: 5px;
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
 }
 .modalDialog1 .name1 .nameBlock1 {
   display: inline-block;
@@ -1120,7 +1120,8 @@ body {
   background-color: #eee;
 }
 .modalDialog1 .name1 .first_name1 label {
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
   font-size: 12px;
   padding-top: 5px;
 }
@@ -1140,7 +1141,8 @@ body {
   background-color: #eee;
 }
 .modalDialog1 .name1 .last_name1 label {
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
   font-size: 12px;
   padding-top: 5px;
 }
@@ -1153,7 +1155,8 @@ body {
 }
 .modalDialog1 .email1 label {
   padding-bottom: 5px;
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
 }
 .modalDialog1 .email1 input {
   width: 463px;
@@ -1174,7 +1177,8 @@ body {
   padding: 0;
   margin: 0;
   margin-bottom: 5px;
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
 }
 .modalDialog1 .phone1 .phoneBlock1 {
   display: inline-block;
@@ -1196,7 +1200,8 @@ body {
   background-color: #eee;
 }
 .modalDialog1 .phone1 .phone_number1 label {
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
   font-size: 12px;
   padding-top: 5px;
 }
@@ -1205,7 +1210,8 @@ body {
 }
 .modalDialog1 .controller1 p {
   text-align: left;
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
   margin: 0;
 }
 .modalDialog1 .controller1 input {
@@ -1213,7 +1219,8 @@ body {
 }
 .modalDialog1 .controller1 label {
   padding-bottom: 5px;
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
   font-size: 12px;
 }
 .modalDialog1 .btn1 {
@@ -1223,13 +1230,14 @@ body {
 .modalDialog1 .btn1 button {
   padding: 10px 30px;
   font-size: 16px;
-  background-color: #ff0;
-  color: #000;
-  border: none;
+  background-color: #0c14ff;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
+  border: 1px solid #800080;
   border-radius: 3px;
 }
 .modalDialog1 .btn1 button:active {
-  background-color: #ffd529;
+  background-color: #18a1ff;
 }
 .modalDialog1 .form2 p {
   text-align: left;
@@ -1238,7 +1246,8 @@ body {
 }
 .modalDialog1 .form2 label {
   padding-bottom: 5px;
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
   font-size: 12px;
 }
 .modalDialog1 .address2 {
@@ -1252,12 +1261,14 @@ body {
 }
 .modalDialog1 .next_form label {
   padding: 5px 0;
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
   font-size: 12px;
 }
 .modalDialog1 .country_form label {
   padding: 5px 0;
-  color: #ff0;
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
   font-size: 12px;
 }
 .modalDialog1 .list {
@@ -1313,6 +1324,9 @@ body {
   color: #fff;
 }
 .navigation__text a:hover {
+  color: #000;
+}
+.navigation__text .active {
   color: #000;
 }
 .widget {
@@ -1531,7 +1545,8 @@ div.stockTicker span {
   top: 85px;
   left: 25px;
   color: #fff;
-  border: 1px solid #ff0;
+  text-shadow: 3px 3px 2px black;
+  border: 1px solid #800080;
   border-radius: 3px;
   background-color: #151515;
   opacity: 0;
@@ -1690,11 +1705,11 @@ div.stockTicker span {
   margin-right: 30px;
 }
 .footer .content__second-block {
-  border-top: 1px solid #151515;
+  border-top: 3px solid #800080;
   padding: 30px 0;
 }
 .footer .content__bottom {
-  border-top: 1px solid #151515;
+  border-top: 3px solid #800080;
   padding-top: 30px;
 }
 @media all and (max-width: 1517px) {
