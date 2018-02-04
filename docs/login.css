@@ -1831,7 +1831,7 @@ div.stockTicker span {
     left: 0;
   }
   body {
-    background-color: #000000;
+    background-color: #030335;
   }
   .platform-block__column ul {
     margin: 0;
@@ -1988,6 +1988,10 @@ div.stockTicker span {
   }
   .home_page-block .bottomLink {
     display: none;
+  }
+  .home_page-section {
+    height: 650px;
+    background: url(assets/images/login_mobile.jpg) top center no-repeat;
   }
   .footer .footer__content {
     max-width: 400px;
