@@ -868,7 +868,7 @@ body {
     margin: 5% auto;
     padding: 10px 15px 15px 15px;
     border-radius: 10px;
-    background-image: url("./assets/images/background_heder.jpg");
+    background-image: url("./assets/images/forms.jpg");
 }
 .close {
     background: #606061;
@@ -1075,7 +1075,7 @@ body {
     margin: 7% auto;
     padding: 10px 15px 15px 15px;
     border-radius: 10px;
-    background-image: url("./assets/images/background_heder.jpg");
+    background-image: url("./assets/images/forms.jpg");
 }
 .close1 {
     background: #606061;
@@ -1389,7 +1389,7 @@ div.stockTicker span {
 }
 .home_page-section {
     height: 588px;
-    background: url(assets/images/Withdrawal.jpeg) no-repeat;
+    background: url(assets/images/Withdawal.jpg) 0% 100% no-repeat;
 }
 .home_page-block .text-block {
     margin: 0 auto;
