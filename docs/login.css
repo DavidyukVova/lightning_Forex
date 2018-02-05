@@ -1662,11 +1662,14 @@ div.stockTicker span {
     max-width: 100px;
     height: 573px;
   }
+  .home_page-section {
+    background: url(assets/images/login_mobile2.png) top center no-repeat;
+  }
   .home_page-block .img-block img {
     max-width: 600px;
   }
   .home_page-section {
-    height: 650px;
+    height: 515px;
   }
   .home_page-section .bottom-block {
     padding-top: 50px;
