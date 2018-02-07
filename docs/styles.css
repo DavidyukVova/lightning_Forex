@@ -780,9 +780,6 @@ body {
 .logotipe-section {
   width: 310px;
 }
-.logotipe-section img {
-  padding: 5px 10px;
-}
 .nav-bar {
   width: 900px;
   padding-right: 30px;
@@ -800,7 +797,7 @@ body {
   margin-top: 25px;
 }
 .nav-bar__first-block li:hover {
-  border-color: #800080;
+  border-color: #fff;
   transition: 1s;
 }
 .nav-bar__first-block a {
@@ -1035,7 +1032,7 @@ body {
   background-color: #0c14ff;
   color: #fff;
   text-shadow: 3px 3px 2px black;
-  border: 1px solid #800080;
+  border: 1px solid #fff;
   border-radius: 3px;
 }
 .modalDialog .btn button:active {
@@ -1243,7 +1240,7 @@ body {
   background-color: #0c14ff;
   color: #fff;
   text-shadow: 3px 3px 2px black;
-  border: 1px solid #800080;
+  border: 1px solid #fff;
   border-radius: 3px;
 }
 .modalDialog1 .btn1 button:active {
@@ -1312,20 +1309,20 @@ body {
 }
 .navigation-block {
   width: 100%;
-  border-top: 3px solid #800080;
-  border-bottom: 3px solid #800080;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 .navigation__text {
   margin: 0 5%;
 }
 .navigation__text li {
+  width: 118px;
+  text-align: center;
   display: inline-block;
   list-style: none;
   padding: 0 20px;
-  border-right: 5px solid #800080;
-  border-left: 5px solid #800080;
+  border: 2px solid #fff;
   background-color: #0725ff;
-  border-radius: 16px;
   text-shadow: 3px 3px 4px black;
 }
 .navigation__text a {
@@ -1333,8 +1330,8 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
-.navigation__text a:hover {
-  color: #000;
+.navigation__text li:hover {
+  background-color: #000;
 }
 .widget {
   border: 1px solid #ccc;
@@ -1412,7 +1409,7 @@ div.stockTicker span {
   font-size: 22px;
   padding-top: 12px;
   text-shadow: #000 1px 1px 0, #000 -1px -1px 0, #000 -1px 1px 0, #000 1px -1px 0;
-  color: #800080;
+  color: #fff;
 }
 .home_page-block .text-block span {
   color: #fff;
@@ -1420,7 +1417,7 @@ div.stockTicker span {
 }
 .home_page-block .text-block button {
   padding: 8px 30px;
-  border: 2px solid #800080;
+  border: 2px solid #fff;
   border-radius: 10px;
   text-transform: uppercase;
   font-size: 16px;
@@ -1454,7 +1451,7 @@ div.stockTicker span {
 .bottom-block {
   width: 100%;
   position: absolute;
-  top: 820px;
+  top: 787px;
   left: 0;
 }
 .content__block {
@@ -1482,7 +1479,7 @@ div.stockTicker span {
   max-width: 405px;
   height: 200px;
   z-index: 4;
-  border: 3px solid #800080;
+  border: 3px solid #fff;
   border-radius: 4%;
   padding: 20px;
 }
@@ -1561,7 +1558,7 @@ div.stockTicker span {
   left: 25px;
   color: #fff;
   text-shadow: 3px 3px 2px black;
-  border: 1px solid #800080;
+  border: 1px solid #fff;
   border-radius: 3px;
   background-color: #151515;
   opacity: 0;
@@ -1602,7 +1599,6 @@ div.stockTicker span {
 .footer .logo-img img {
   width: 200px;
   border: 2px solid #fff;
-  padding: 5px 10px;
   border-radius: 8px;
 }
 .footer .footer__content {
@@ -1641,11 +1637,11 @@ div.stockTicker span {
   margin-right: 30px;
 }
 .footer .content__second-block {
-  border-top: 3px solid #800080;
+  border-top: 3px solid #fff;
   padding: 30px 0;
 }
 .footer .content__bottom {
-  border-top: 3px solid #800080;
+  border-top: 3px solid #fff;
   padding-top: 30px;
 }
 @media all and (max-width: 1517px) {
@@ -1712,9 +1708,7 @@ div.stockTicker span {
   }
 }
 @media all and (max-width: 1141px) {
-  .home_page-section .bottom-block {
-    padding-top: 39px;
-  }
+
 }
 @media all and (max-width: 1124px) {
   .navigation__text {
@@ -1725,6 +1719,9 @@ div.stockTicker span {
   }
 }
 @media all and (max-width: 1060px) {
+  .home_page-section .bottom-block {
+    padding-top: 56px;
+  }
   .content__item {
     max-width: 405px;
     height: 150px;
@@ -1770,7 +1767,8 @@ div.stockTicker span {
 }
 @media all and (max-width: 984px) {
   .home_page-section .bottom-block {
-    top: 719px;
+    top: 810px;
+    padding-top: 56px;
   }
 }
 @media all and (max-width: 976px) {
@@ -1785,7 +1783,7 @@ div.stockTicker span {
     height: 1200px;
   }
   .home_page-section .bottom-block {
-    padding-top: 50px;
+    top: 722px;
   }
   .content__block {
     width: 100%;
@@ -1831,10 +1829,15 @@ div.stockTicker span {
 }
 @media all and (max-width: 894px) {
   .home_page-section .bottom-block {
-    padding-top: 129px;
+    padding-top: 137px;
+    top: 630px;
   }
 }
 @media all and (max-width: 890px) {
+  .home_page-section .bottom-block {
+    padding-top: 164px;
+    top: 692px;
+  }
   .platform-block .images_container img {
     width: 250px;
   }

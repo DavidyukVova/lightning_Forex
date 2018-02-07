@@ -1535,9 +1535,6 @@ body {
 .logotipe-section {
   width: 310px;
 }
-.logotipe-section img {
-  padding: 5px 10px;
-}
 .nav-bar {
   width: 900px;
   padding-right: 30px;
@@ -1555,7 +1552,7 @@ body {
   margin-top: 25px;
 }
 .nav-bar__first-block li:hover {
-  border-color: #800080;
+  border-color: #fff;
   transition: 1s;
 }
 .nav-bar__first-block a {
@@ -2044,20 +2041,20 @@ body {
 }
 .navigation-block {
   width: 100%;
-  border-top: 3px solid #800080;
-  border-bottom: 3px solid #800080;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 .navigation__text {
   margin: 0 5%;
 }
 .navigation__text li {
+  width: 118px;
+  text-align: center;
   display: inline-block;
   list-style: none;
   padding: 0 20px;
-  border-right: 5px solid #800080;
-  border-left: 5px solid #800080;
+  border: 2px solid #fff;
   background-color: #0725ff;
-  border-radius: 16px;
   text-shadow: 3px 3px 4px black;
 }
 .navigation__text a {
@@ -2065,11 +2062,11 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
-.navigation__text a:hover {
-  color: #000;
-}
 .navigation__text .active {
-  color: #000;
+  background-color: #000;
+}
+.navigation__text li:hover {
+  background-color: #000;
 }
 .widget {
   border: 1px solid #ccc;
@@ -2148,7 +2145,7 @@ div.stockTicker span {
 .home_page-block .text-block li {
   font-size: 20px;
   padding-top: 12px;
-  color: #800080;
+  color: #fff;
 }
 .home_page-block .text-block span {
   color: #fff;
@@ -2156,7 +2153,7 @@ div.stockTicker span {
 }
 .home_page-block .text-block button {
   padding: 8px 30px;
-  border: 2px solid #800080;
+  border: 2px solid #fff;
   border-radius: 10px;
   text-transform: uppercase;
   font-size: 16px;
@@ -2218,7 +2215,7 @@ div.stockTicker span {
   max-width: 405px;
   height: 200px;
   z-index: 4;
-  border: 3px solid #800080;
+  border: 3px solid #fff;
   border-radius: 4%;
   padding: 20px;
 }
@@ -2289,7 +2286,7 @@ div.stockTicker span {
   left: 25px;
   color: #fff;
   text-shadow: 3px 3px 2px black;
-  border: 1px solid #800080;
+  border: 1px solid #fff;
   border-radius: 3px;
   background-color: #151515;
   opacity: 0;
@@ -2330,7 +2327,6 @@ div.stockTicker span {
 .footer .logo-img img {
   width: 200px;
   border: 2px solid #fff;
-  padding: 5px 10px;
   border-radius: 8px;
 }
 .footer .footer__content {
@@ -2369,11 +2365,11 @@ div.stockTicker span {
   margin-right: 30px;
 }
 .footer .content__second-block {
-  border-top: 3px solid #800080;
+  border-top: 3px solid #fff;
   padding: 30px 0;
 }
 .footer .content__bottom {
-  border-top: 3px solid #800080;
+  border-top: 3px solid #fff;
   padding-top: 30px;
 }
 @media all and (max-width: 1517px) {
