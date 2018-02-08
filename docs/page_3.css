@@ -769,7 +769,7 @@ body {
 }
 .heder-section {
   width: 100%;
-  background: url(./assets/images/background_heder.jpg) 50% 10% no-repeat;
+  background-color: #030335;
 }
 .heder-block {
   display: -ms-flexbox;
@@ -817,8 +817,7 @@ body {
 }
 .nav-bar .nav-bar__seccond-block button {
   padding: 5px 30px;
-  border: none;
-  border-radius: 10px;
+  border: 2px solid #fff;
   text-transform: uppercase;
   font-size: 16px;
   color: #fff;
@@ -826,17 +825,20 @@ body {
   cursor: pointer;
   margin: 0 15px;
 }
+.nav-bar .nav-bar__seccond-block button:hover {
+  background-color: #000;
+}
 .nav-bar .nav-bar__seccond-block .btn1 {
-  background-color: #18a1ff;
+  background-color: #1364FF;
 }
 .nav-bar .nav-bar__seccond-block .btn1:active {
-  background-color: #1984ff;
+  background-color: #1364FF;
 }
 .nav-bar .nav-bar__seccond-block .btn2 {
-  background-color: #1c2eff;
+  background-color: #1364FF;
 }
 .nav-bar .nav-bar__seccond-block .btn3 {
-  background-color: #0c14ff;
+  background-color: #1364FF;
   /* Modal */
 }
 .modalDialog {
@@ -1312,7 +1314,7 @@ body {
   list-style: none;
   padding: 0 20px;
   border: 2px solid #fff;
-  background-color: #0725ff;
+  background-color: #1364FF;
   text-shadow: 3px 3px 4px black;
 }
 .navigation__text a {
@@ -1416,7 +1418,7 @@ div.stockTicker span {
   font-size: 16px;
   color: #fff;
   text-shadow: 4px 4px 5px black;
-  background-color: #1364ff;
+  background-color: #1364FF;
   cursor: pointer;
   margin: 0 15px;
 }
@@ -1426,7 +1428,7 @@ div.stockTicker span {
 .arrow {
   width: 80px;
   margin: 0 auto;
-  background-color: #1364ff;
+  background-color: #1364FF;
   border-radius: 50%;
   z-index: 4;
   position: absolute;
@@ -1577,7 +1579,7 @@ div.stockTicker span {
 }
 .platform-block {
   width: 100%;
-  background-image: url("./assets/images/background_heder.jpg");
+  background-color: #030335;
   color: #fff;
   text-shadow: 3px 3px 2px black;
   padding: 100px 0;
@@ -1646,7 +1648,7 @@ div.stockTicker span {
 .platform-block__bottom .platform__button button{
   padding: 20px 40px;
   margin-top: 30px;
-  background-color: #0c14ff;
+  background-color: #1364FF;
   border: 1px solid #fff;
   color: #fff;
   text-shadow: 3px 3px 2px black;
@@ -1655,7 +1657,7 @@ div.stockTicker span {
   cursor: pointer;
 }
 .footer {
-  background: url(./assets/images/background_heder.jpg) 50% 20% no-repeat;
+  background-color: #030335;
   color: #fff;
   text-shadow: 3px 3px 3px black, 0 0 1em purple;
   padding: 50px 0;
