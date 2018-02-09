@@ -2110,8 +2110,11 @@ div.stockTicker span {
   padding-right: 25px;
 }
 .home_page-section {
-  height: 600px;
-  background-image: url(assets/images/ABOUT.jpg);
+  background-color: #000032;
+}
+.home_page-background {
+  height: 650px;
+  background: url(assets/images/ABOUT.jpg) no-repeat;
   position: relative;
 }
 .home_page-block {
@@ -2126,7 +2129,7 @@ div.stockTicker span {
   bottom: 0;
   right: 0;
   z-index: 2;
-  background: linear-gradient(to right, rgba(0,0,51,0.1) 0%, rgba(0,0,51,0.3) 40%, rgba(0,0,51,0.96) 60%, rgba(0,0,51,0.99) 70%, rgba(0,0,51,0.99) 100%);
+  background: linear-gradient(to right, rgba(0,0,51,0.1) 0%, rgba(0,0,51,0.2) 30%, rgba(0,0,51,0.6) 40%, rgba(0,0,51,0.99) 60%, rgba(0,0,051,0.99) 100%);
 }
 .home_page-block {
   padding-left: 45%;
@@ -2139,10 +2142,9 @@ div.stockTicker span {
 }
 .home_page-block .text-block p {
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
-  text-shadow: 4px 4px 5px black;
-  padding-top: 20px;
+  text-shadow: 3px 3px 2px black;
 }
 .home_page-block .text-block li {
   font-size: 20px;
@@ -2151,7 +2153,7 @@ div.stockTicker span {
 }
 .home_page-block .text-block span {
   color: #fff;
-  text-shadow: 4px 4px 5px black;
+  text-shadow: 3px 3px 2px black;
 }
 .home_page-block .text-block button {
   padding: 8px 30px;
@@ -2166,6 +2168,188 @@ div.stockTicker span {
 }
 .home_page-block .text-block .text-block__btn {
   margin: 40px 20%;
+}
+.content__item {
+  width: 405px;
+  height: 230px;
+  z-index: 4;
+  border: 3px solid #8;
+  border-radius: 4%;
+  padding: 20px;
+}
+.content__item .content__img img {
+  width: 100px;
+}
+.content__item .first-img {
+  padding-top: 10px;
+}
+.content__item .second-img {
+  padding-top: 25px;
+}
+.content__item .content__img {
+  width: 110px;
+  float: left;
+}
+.content__item h2 {
+  text-align: center;
+  color: #fff;
+}
+.content__item p {
+  width: 250px;
+  float: left;
+  color: #fff;
+}
+.modal_content h2,
+.modal_content p {
+  text-align: center;
+  color: #fff;
+}
+.name p {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.name .nameBlock {
+  display: inline-block;
+}
+.name .first_name input,
+.name .first_name label {
+  display: block;
+}
+.name .first_name input {
+  width: 200px;
+  padding: 10px 25px;
+  margin-right: 4px;
+  background: #939393;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+}
+.name .first_name input:active,
+.name .first_name input:focus {
+  background-color: #eee;
+}
+.name .first_name label {
+  color: #fff;
+  font-size: 12px;
+  padding-top: 5px;
+}
+.name .last_name input,
+.name .last_name label {
+  display: block;
+}
+.name .last_name input {
+  width: 200px;
+  padding: 10px 25px;
+  background: #939393;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+}
+.name .last_name input:active,
+.name .last_name input:focus {
+  background-color: #eee;
+}
+.name .last_name label {
+  color: #fff;
+  font-size: 12px;
+  padding-top: 5px;
+}
+.email {
+  margin-top: 25px;
+}
+.email label,
+.email input {
+  display: block;
+}
+.email label {
+  padding-bottom: 5px;
+  color: #fff;
+}
+.email input {
+  width: 463px;
+  padding: 10px 25px;
+  background: #939393;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+}
+.email input:active,
+.email input:focus {
+  background-color: #eee;
+}
+.phone {
+  padding-top: 30px;
+}
+.phone p {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.phone .phoneBlock {
+  display: inline-block;
+}
+.phone .phone_number input,
+.phone .phone_number label {
+  display: block;
+}
+.phone .phone_number input {
+  width: 200px;
+  padding: 10px 25px;
+  margin-right: 4px;
+  background: #939393;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+}
+.phone .phone_number input:active,
+.phone .phone_number input:focus {
+  background-color: #eee;
+}
+.phone .phone_number label {
+  color: #fff;
+  font-size: 12px;
+  padding-top: 5px;
+}
+.controller {
+  margin-top: 20px;
+}
+.controller p {
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
+.controller input {
+  background-color: #939393;
+}
+.controller label {
+  padding-bottom: 5px;
+  color: #fff;
+  font-size: 12px;
+}
+.comment textarea {
+  padding: 10px 25px;
+  background-color: #939393;
+  border: 1px solid #dbdbdb;
+}
+.comment textarea:active,
+.comment textarea:focus {
+  background-color: #fff;
+}
+.btn {
+  margin: 20px 0;
+  margin-left: 30%;
+}
+.btn button {
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #1c2eff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+.btn button:active {
+  background-color: #ffd529;
 }
 .arrow {
   width: 80px;
@@ -2437,11 +2621,6 @@ div.stockTicker span {
     right: 3%;
   }
 }
-@media all and (max-width: 1141px) {
-  .home_page-section .bottom-block {
-    padding-top: 39px;
-  }
-}
 @media all and (max-width: 1124px) {
   .navigation__text {
     margin: 0 5%;
@@ -2495,11 +2674,6 @@ div.stockTicker span {
     margin-left: 25px;
   }
 }
-@media all and (max-width: 984px) {
-  .home_page-section .bottom-block {
-    top: 719px;
-  }
-}
 @media all and (max-width: 976px) {
   .home_page-block .img-block {
     max-width: 100px;
@@ -2509,23 +2683,19 @@ div.stockTicker span {
     max-width: 600px;
   }
   .home_page-section {
-    height: 672px;
+    height: 650px;
   }
   .home_page-section .bottom-block {
     padding-top: 50px;
   }
   .content__block {
     width: 100%;
-    height: 690px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-pack: center;
     justify-content: center;
-  }
-  .content__item {
-    margin-top: 20px;
   }
   .nav-bar {
     display: -ms-flexbox;
@@ -2535,27 +2705,9 @@ div.stockTicker span {
     -ms-flex-pack: center;
     justify-content: center;
   }
-  .platform-block__column ul {
-    margin: 0;
-    padding: 0;
-  }
-  .platform-block__column ul li {
-    margin: 0;
-    padding: 0;
-  }
-  .platform-block .column-right ul {
-    padding-top: 0;
-  }
-  .platform-block .column-left ul {
-    padding-top: 0;
-  }
-  .platform-block__middle .platform-block__column + .platform-block__column {
-    margin-left: 25px;
-  }
-}
-@media all and (max-width: 894px) {
-  .home_page-section .bottom-block {
-    padding-top: 129px;
+  .home_page-block {
+    padding-left: 35%;
+    padding-right: 10%;
   }
 }
 @media all and (max-width: 890px) {
@@ -2629,6 +2781,9 @@ div.stockTicker span {
   .modalDialog1 .modal_content1 {
     padding-left: 20px;
   }
+  .home_page-block {
+    padding-left: 20%;
+  }
   .footer .footer__content {
     max-width: 600px;
   }
@@ -2658,49 +2813,16 @@ div.stockTicker span {
     padding: 0;
     float: right;
   }
-  .platform-block .images_container img {
-    width: 160px;
+  .navigation__text #nav li:hover ul {
+    right: 1%;
+    top: 240px;
   }
-  .home_page-section {
-    height: 800px;
-  }
-  .home_page-section .bottom-block {
-    padding-top: 250px;
-  }
-  .bottom-block {
-    width: 100%;
-    position: absolute;
-    top: 1000px;
-    left: 0;
-  }
-  body {
-    background-color: #000000;
-  }
-  .platform-block__column ul {
-    margin: 0;
-    padding: 0;
-  }
-  .platform-block__column ul li {
-    margin: 0;
-    padding: 0;
-  }
-  .platform-block .column-right ul {
-    padding-top: 0;
-  }
-  .platform-block .column-left ul {
-    padding-top: 0;
-  }
-  .platform-block__middle .platform-block__column + .platform-block__column {
-    margin-left: 25px;
+  .home_page-block {
+    padding-left: 20%;
+    padding-right: 10%;
   }
 }
 @media all and (max-width: 690px) {
-  .nav-bar #nav1 ul {
-    left: 0;
-  }
-  .nav-bar #nav1 li:hover ul {
-    left: 0;
-  }
   .platform-block .platform-block__middle {
     display: -ms-flexbox;
     display: flex;
@@ -2711,6 +2833,10 @@ div.stockTicker span {
   }
   .platform-block__column {
     margin: 20px;
+  }
+  .home_page-block {
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .footer .footer__content {
     max-width: 500px;
@@ -2777,12 +2903,6 @@ div.stockTicker span {
   .content__block {
     height: 738px;
   }
-  .home_page-section {
-    height: 900px;
-  }
-  .home_page-section .bottom-block {
-    padding-top: 300px;
-  }
 }
 @media all and (max-width: 618px) {
   .navigation__text #nav li:hover ul {
@@ -2808,6 +2928,18 @@ div.stockTicker span {
   .home_page-block .text-block ul li {
     font-size: 20px;
   }
+  .name .nameBlock {
+    display: block;
+  }
+  .email input {
+    width: 200px;
+  }
+  .comment textarea {
+    width: 200px;
+  }
+  .btn {
+    margin-left: 5%;
+  }
 }
 @media all and (max-width: 550px) {
   .heder-block {
@@ -2822,8 +2954,11 @@ div.stockTicker span {
   .home_page-block .bottomLink {
     display: none;
   }
-  .home_page-section {
-    height: 980px;
+  .home_page-block .text-block p {
+    font-size: 16px;
+  }
+  .home_page-block .text-block ul li {
+    font-size: 16px;
   }
   .footer .footer__content {
     max-width: 400px;
@@ -2841,15 +2976,9 @@ div.stockTicker span {
   .content__block {
     margin-top: 50px;
   }
-}
-@media all and (max-width: 510px) {
-  .home_page-section {
-    height: 1100px;
-  }
-}
-@media all and (max-width: 450px) {
-  .home_page-section {
-    height: 1200px;
+  .home_page-block {
+    padding-left: 15%;
+    padding-right: 10%;
   }
 }
 @media all and (max-width: 420px) {
@@ -2867,7 +2996,7 @@ div.stockTicker span {
     font-size: 22px;
   }
   .home_page-block .text-block ul li {
-    font-size: 18px;
+    font-size: 16px;
   }
   .footer .footer__content {
     max-width: 350px;
@@ -2877,16 +3006,32 @@ div.stockTicker span {
   }
   .content__block {
     width: 100%;
-    height: 800px;
+    height: 712px;
   }
 }
 @media all and (max-width: 385px) {
+  .home_page-section {
+    height: 670px;
+    background: url(assets/images/ABOUT.jpg) no-repeat;
+  }
+  .home_page-background {
+    background: none;
+  }
+  .home_page-block:after {
+    display: none;
+  }
   .footer .footer__content {
     max-width: 320px;
   }
   .navigation__text #nav li:hover ul {
     right: 10%;
     top: 360px;
+  }
+  .home_page-block .text-block p {
+    font-size: 14px;
+  }
+  .home_page-block .text-block ul li {
+    font-size: 16px;
   }
 }
 @media all and (max-width: 348px) {
@@ -2897,4 +3042,38 @@ div.stockTicker span {
     right: 2%;
     top: 360px;
   }
+  .home_page-block {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+@media all and (max-width: 348px) {
+  .home_page-section {
+    height: 670px;
+  }
+}
+#nav1 .contact ul li {
+  padding-left: 0;
+}
+@media all and (max-width: 690px) {
+  .nav-bar #nav1 ul {
+    left: 0;
+  }
+  .nav-bar #nav1 li:hover ul {
+    left: 0;
+  }
+}
+.nav-bar #nav1 ul {
+  list-style: none;
+  position: absolute;
+  top: 85px;
+  left: 25px;
+  color: #fff;
+  border: 1px solid #ff0;
+  border-radius: 3px;
+  background-color: #151515;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease 1s;
+  z-index: 5;
 }

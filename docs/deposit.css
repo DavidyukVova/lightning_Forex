@@ -1432,7 +1432,8 @@ div.stockTicker span {
     text-align: center;
 }
 .home_page-block .text-block button {
-    padding: 8px 30px;
+    width: 200px;
+    padding: 8px 5px;
     border: 2px solid #fff;
     text-transform: uppercase;
     font-size: 16px;
@@ -1440,7 +1441,7 @@ div.stockTicker span {
     text-shadow: 3px 3px 2px black;
     background-color: #1364FF;
     cursor: pointer;
-    margin: 10px 15px;
+    margin: 10px 15px  40px 0;
 }
 .home_page-block .text-block .text-block__btn {
     margin: 40px 20%;
@@ -1959,7 +1960,7 @@ div.stockTicker span {
         max-width: 600px;
     }
     .home_page-section {
-        height: 532px;
+        height: 800px;
     }
     .home_page-section .bottom-block {
         padding-top: 50px;
@@ -2281,7 +2282,10 @@ div.stockTicker span {
 }
 @media all and (max-width: 385px) {
     .home_page-section {
-        height: 532px;
+        height: 700px;
+    }
+    .home_page-block:after {
+        display: none;
     }
     .footer .footer__content {
         max-width: 320px;
@@ -2312,7 +2316,7 @@ div.stockTicker span {
 }
 @media all and (max-width: 348px) {
     .home_page-section {
-        height: 532px;
+        height: 700px;
     }
 }
 #nav1 .contact ul li {

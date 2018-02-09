@@ -2114,7 +2114,7 @@ div.stockTicker span {
 }
 .home_page-background {
   height: 650px;
-  background: url(assets/images/Partners.jpg) no-repeat;
+  background: url(assets/images/Partners2.jpg) no-repeat;
   position: relative;
 }
 .home_page-block {
@@ -3006,6 +3006,13 @@ div.stockTicker span {
 @media all and (max-width: 385px) {
   .home_page-section {
     height: 800px;
+    background: url(assets/images/Partners.jpg) no-repeat;
+  }
+  .home_page-background {
+    background: none;
+  }
+  .home_page-block:after {
+    display: none;
   }
   .footer .footer__content {
     max-width: 320px;
@@ -3015,7 +3022,7 @@ div.stockTicker span {
     top: 360px;
   }
   .home_page-block .text-block p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .home_page-block .text-block ul li {
     font-size: 16px;

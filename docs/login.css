@@ -2255,6 +2255,9 @@ div.stockTicker span {
   .home_page-section {
     height: 600px;
   }
+  .home_page-block:after {
+    display: none;
+  }
   .footer .footer__content {
     max-width: 320px;
   }
@@ -2281,10 +2284,16 @@ div.stockTicker span {
     padding-left: 8%;
     padding-right: 8%;
   }
+  .home_page-block .text-block h2 {
+    font-size: 18px;
+  }
+  .home_page-block .text-block button {
+    font-size: 14px;
+  }
 }
 @media all and (max-width: 348px) {
   .home_page-section {
-    height: 600px;
+    height: 500px;
   }
 }
 #nav1 .contact ul li {
