@@ -1568,7 +1568,7 @@ div.stockTicker span {
   z-index: 5;
 }
 .nav-bar #nav1 li:hover ul,
-.nav-bar #nav1 li:active ul{
+.nav-bar #nav1 li:checked ul{
   left: 25px;
   top: 85px;
   opacity: 1;
