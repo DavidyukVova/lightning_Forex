@@ -803,7 +803,7 @@ body {
 .nav-bar__first-block a {
   text-decoration: none;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
 }
 .nav-bar ul .contact {
   margin-left: 14px;
@@ -821,7 +821,7 @@ body {
   text-transform: uppercase;
   font-size: 16px;
   color: #fff;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 2px 2px 3px #000;
   cursor: pointer;
   margin: 0 15px;
 }
@@ -829,17 +829,17 @@ body {
   background-color: #000;
 }
 .nav-bar .nav-bar__seccond-block .btn1 {
-  background-color: #1364FF;
+  background-color: #1364ff;
 }
 .nav-bar .nav-bar__seccond-block .btn:hover {
   background-color: #000;
 }
 .nav-bar .nav-bar__seccond-block .btn2 {
-  background-color: #1364FF;
+  background-color: #1364ff;
 }
 .nav-bar .nav-bar__seccond-block .btn3 {
-  background-color: #1364FF;
-  /* Modal */
+  background-color: #1364ff;
+/* Modal */
 }
 .modalDialog {
   position: fixed;
@@ -890,7 +890,7 @@ body {
 .modalDialog .modal_content p {
   text-align: center;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
 }
 .modalDialog .name p {
   text-align: left;
@@ -898,11 +898,11 @@ body {
   margin: 0;
   margin-bottom: 5px;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
 }
 .modalDialog .modal_content a {
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   text-decoration: none;
 }
 .modalDialog .modal_content a:hover {
@@ -929,10 +929,10 @@ body {
 }
 .modalDialog .name .first_name label {
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   font-size: 12px;
   padding-top: 5px;
-  /*  */
+/*  */
 }
 .modalDialog .name .last_name input,
 .modalDialog .name .last_name label {
@@ -951,7 +951,7 @@ body {
 }
 .modalDialog .name .last_name label {
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   font-size: 12px;
   padding-top: 5px;
 }
@@ -965,7 +965,7 @@ body {
 .modalDialog .email label {
   padding-bottom: 5px;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
 }
 .modalDialog .email input {
   width: 463px;
@@ -987,7 +987,7 @@ body {
   margin: 0;
   margin-bottom: 5px;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
 }
 .modalDialog .phone .phoneBlock {
   display: inline-block;
@@ -1010,7 +1010,7 @@ body {
 }
 .modalDialog .phone .phone_number label {
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   font-size: 12px;
   padding-top: 5px;
 }
@@ -1020,7 +1020,7 @@ body {
 .modalDialog .controller p {
   text-align: left;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   margin: 0;
 }
 .modalDialog .controller input {
@@ -1029,7 +1029,7 @@ body {
 .modalDialog .controller label {
   padding-bottom: 5px;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   font-size: 12px;
 }
 .modalDialog .btn {
@@ -1041,7 +1041,7 @@ body {
   font-size: 16px;
   background-color: #0c14ff;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   border: 1px solid #fff;
   border-radius: 3px;
 }
@@ -1054,7 +1054,7 @@ body {
 .modalDialog .list select {
   background: #939393;
   border: none;
-  /*Modal2*/
+/*Modal2*/
 }
 .modalDialog1 {
   position: fixed;
@@ -1079,7 +1079,6 @@ body {
   margin: 7% auto;
   padding: 10px 15px 15px 15px;
   border-radius: 10px;
-  background-image: url("./assets/images/background_heder.jpg");
 }
 .close1 {
   background: #606061;
@@ -1107,7 +1106,7 @@ body {
 .modalDialog1 .modal_content1 p {
   text-align: center;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
 }
 .modalDialog1 .name1 p {
   text-align: left;
@@ -1115,7 +1114,7 @@ body {
   margin: 0;
   margin-bottom: 5px;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
 }
 .modalDialog1 .name1 .nameBlock1 {
   display: inline-block;
@@ -1138,7 +1137,7 @@ body {
 }
 .modalDialog1 .name1 .first_name1 label {
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   font-size: 12px;
   padding-top: 5px;
 }
@@ -1159,7 +1158,7 @@ body {
 }
 .modalDialog1 .name1 .last_name1 label {
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   font-size: 12px;
   padding-top: 5px;
 }
@@ -1173,7 +1172,7 @@ body {
 .modalDialog1 .email1 label {
   padding-bottom: 5px;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
 }
 .modalDialog1 .email1 input {
   width: 463px;
@@ -1195,7 +1194,7 @@ body {
   margin: 0;
   margin-bottom: 5px;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
 }
 .modalDialog1 .phone1 .phoneBlock1 {
   display: inline-block;
@@ -1218,7 +1217,7 @@ body {
 }
 .modalDialog1 .phone1 .phone_number1 label {
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   font-size: 12px;
   padding-top: 5px;
 }
@@ -1228,7 +1227,7 @@ body {
 .modalDialog1 .controller1 p {
   text-align: left;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   margin: 0;
 }
 .modalDialog1 .controller1 input {
@@ -1237,7 +1236,7 @@ body {
 .modalDialog1 .controller1 label {
   padding-bottom: 5px;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   font-size: 12px;
 }
 .modalDialog1 .btn1 {
@@ -1247,9 +1246,9 @@ body {
 .modalDialog1 .btn1 button {
   padding: 10px 30px;
   font-size: 16px;
-  background-color: #18A1FF;
+  background-color: #18a1ff;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   border: 1px solid #fff;
   border-radius: 3px;
 }
@@ -1264,7 +1263,7 @@ body {
 .modalDialog1 .form2 label {
   padding-bottom: 5px;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   font-size: 12px;
 }
 .modalDialog1 .address2 {
@@ -1279,13 +1278,13 @@ body {
 .modalDialog1 .next_form label {
   padding: 5px 0;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   font-size: 12px;
 }
 .modalDialog1 .country_form label {
   padding: 5px 0;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   font-size: 12px;
 }
 .modalDialog1 .list {
@@ -1301,8 +1300,6 @@ body {
 .modalDialog1 .line {
   display: inline-block;
 }
-/* Modal3 */
-
 .modal3 .modal_content1 label {
   font-size: 16px;
 }
@@ -1332,8 +1329,8 @@ body {
   list-style: none;
   padding: 0 20px;
   border: 2px solid #fff;
-  background-color: #1364FF;
-  text-shadow: 3px 3px 4px black;
+  background-color: #1364ff;
+  text-shadow: 3px 3px 4px #000;
 }
 .navigation__text a {
   text-decoration: none;
@@ -1400,7 +1397,7 @@ div.stockTicker span {
   bottom: 0;
   right: 0;
   z-index: 2;
-  background: linear-gradient(to right, rgba(0, 0, 51, 0.1) 0%, rgba(0,0,51,0.2) 30%, rgba(0,0,51,0.6) 40%, rgba(0,0,51,0.99) 60%, rgba(0,0,51,0.99) 100%);
+  background: linear-gradient(to right, rgba(0,0,51,0.1) 0%, rgba(0,0,51,0.2) 30%, rgba(0,0,51,0.6) 40%, rgba(0,0,51,0.99) 60%, rgba(0,0,51,0.99) 100%);
 }
 .home_page-block .img-block img {
   max-width: 950px;
@@ -1413,7 +1410,7 @@ div.stockTicker span {
 .home_page-block .text-block h2 {
   font-size: 30px;
   color: #fff;
-  text-shadow: 4px 4px 5px black;
+  text-shadow: 4px 4px 5px #000;
 }
 .home_page-block .text-block li {
   font-size: 22px;
@@ -1423,7 +1420,7 @@ div.stockTicker span {
 }
 .home_page-block .text-block span {
   color: #fff;
-  text-shadow: 4px 4px 5px black;
+  text-shadow: 4px 4px 5px #000;
 }
 .home_page-block .text-block button {
   padding: 8px 30px;
@@ -1431,7 +1428,7 @@ div.stockTicker span {
   text-transform: uppercase;
   font-size: 16px;
   color: #fff;
-  text-shadow: 4px 4px 5px black;
+  text-shadow: 4px 4px 5px #000;
   background-color: #1364ff;
   cursor: pointer;
   margin: 0 15px;
@@ -1451,11 +1448,11 @@ div.stockTicker span {
   font-size: 60px;
   text-align: center;
   color: #fff;
-  text-shadow: 4px 4px 5px black;
+  text-shadow: 4px 4px 5px #000;
 }
 .home_page-section #first_content:active {
   transition: 3s;
-  /* bottom */
+/* bottom */
 }
 .bottom-block {
   width: 100%;
@@ -1516,13 +1513,13 @@ div.stockTicker span {
   text-align: center;
   font-size: 18px;
   color: #fff;
-  text-shadow: 3px 3px 4px black;
+  text-shadow: 3px 3px 4px #000;
 }
 .content__item p {
   max-width: 250px;
   float: left;
   color: #fff;
-  text-shadow: 3px 3px 4px black;
+  text-shadow: 3px 3px 4px #000;
 }
 .navigation__text #nav ul {
   list-style: none;
@@ -1558,7 +1555,7 @@ div.stockTicker span {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   transition: 1s;
-  /*drop-down_2*/
+/*drop-down_2*/
 }
 .nav-bar #nav1 ul {
   list-style: none;
@@ -1566,7 +1563,7 @@ div.stockTicker span {
   top: 85px;
   left: 25px;
   color: #fff;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 2px #000;
   border: 1px solid #fff;
   border-radius: 3px;
   background-color: #151515;
@@ -1602,7 +1599,7 @@ div.stockTicker span {
 .footer {
   background-color: #030335;
   color: #fff;
-  text-shadow: 3px 3px 3px black, 0 0 1em purple;
+  text-shadow: 3px 3px 3px #000, 0 0 1em #800080;
   padding: 50px 0;
 }
 .footer .logo-img img {
@@ -1621,7 +1618,8 @@ div.stockTicker span {
 .footer .footer__content .social_networks {
   display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .footer .footer__content .icon-text {
   font-weight: bold;
@@ -1715,9 +1713,6 @@ div.stockTicker span {
   .navigation__text #nav li:hover ul {
     right: 3%;
   }
-}
-@media all and (max-width: 1141px) {
-
 }
 @media all and (max-width: 1124px) {
   .navigation__text {
@@ -1980,7 +1975,7 @@ div.stockTicker span {
     left: 0;
   }
   body {
-    background-color: #000000;
+    background-color: #000;
   }
   .platform-block__column ul {
     margin: 0;
@@ -2090,7 +2085,7 @@ div.stockTicker span {
     height: 1155px;
   }
   .home_page-section .bottom-block {
-    padding-top: 330px;
+    padding-top: 342px;
   }
 }
 @media all and (max-width: 618px) {
