@@ -2405,7 +2405,6 @@ div.stockTicker span {
   background-color: #1c2eff;
   color: #fff;
   border: none;
-  border-radius: 3px;
 }
 .btn button:active {
   background-color: #ffd529;
@@ -2742,7 +2741,7 @@ div.stockTicker span {
     max-width: 600px;
   }
   .home_page-section {
-    height: 800px;
+    height: 650px;
   }
   .home_page-section .bottom-block {
     padding-top: 50px;
@@ -2971,6 +2970,12 @@ div.stockTicker span {
   .home_page-block .img-block img {
     max-width: 400px;
   }
+  .home_page-section {
+    height: 650px;
+  }
+  .home_page-section .text-block p {
+    font-size: 16px;
+  }
   .content__block {
     width: 100%;
     height: 738px;
@@ -3000,6 +3005,11 @@ div.stockTicker span {
     margin-left: 5%;
   }
 }
+@media all and (max-width: 553px) {
+  .home_page-section .text-block p {
+    font-size: 15px;
+  }
+}
 @media all and (max-width: 550px) {
   .heder-block {
     display: -ms-flexbox;
@@ -3012,6 +3022,9 @@ div.stockTicker span {
   }
   .home_page-block .bottomLink {
     display: none;
+  }
+  .home_page-section .text-block p {
+    font-size: 14px;
   }
   .footer .footer__content {
     max-width: 400px;
@@ -3032,6 +3045,11 @@ div.stockTicker span {
   .home_page-block {
     padding-left: 15%;
     padding-right: 10%;
+  }
+}
+@media all and (max-width: 448px) {
+  .home_page-section .text-block p {
+    font-size: 13px;
   }
 }
 @media all and (max-width: 420px) {

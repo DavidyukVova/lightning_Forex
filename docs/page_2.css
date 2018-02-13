@@ -2733,6 +2733,12 @@ div.stockTicker span {
   .platform-block .images_container img {
     width: 160px;
   }
+  .platform-block .platform-block__top {
+    font-size: 22px;
+  }
+  .platform-block .platform-block__bottom p {
+    font-size: 16px;
+  }
   .home_page-section {
     height: 1180px;
   }
@@ -2897,6 +2903,12 @@ div.stockTicker span {
   .home_page-block .bottomLink {
     display: none;
   }
+  .platform-block .platform-block__top {
+    font-size: 20px;
+  }
+  .platform-block .platform-block__bottom p {
+    font-size: 14px;
+  }
   .platform-block__middle .images img {
     width: 400px;
   }
@@ -2936,6 +2948,9 @@ div.stockTicker span {
     font-size: 22px;
   }
   .home_page-block .text-block ul li {
+    font-size: 18px;
+  }
+  .platform-block .platform-block__top {
     font-size: 18px;
   }
   .footer .footer__content {

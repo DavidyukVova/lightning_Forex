@@ -1471,7 +1471,7 @@ div.stockTicker span {
   margin: 10px 15px;
 }
 .home_page-block .text-block .text-block__btn {
-  margin: 40px 20%;
+  margin: 25px 20%;
 }
 .content__item {
   width: 405px;
@@ -2214,7 +2214,7 @@ div.stockTicker span {
     top: 240px;
   }
   .home_page-section {
-    height: 650px;
+    height: 515px;
   }
   .home_page-block .img-block img {
     max-width: 400px;
@@ -2282,6 +2282,11 @@ div.stockTicker span {
     padding-right: 10%;
   }
 }
+@media all and (max-width: 490px) {
+  .home_page-block .text-block button {
+    font-size: 14px;
+  }
+}
 @media all and (max-width: 420px) {
   .navigation__text #nav li:hover ul {
     right: 15%;
@@ -2315,7 +2320,7 @@ div.stockTicker span {
     width: 230px;
   }
   .home_page-section {
-    height: 600px;
+    height: 515px;
   }
   .home_page-block:after {
     display: none;
