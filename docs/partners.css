@@ -1596,6 +1596,65 @@ body {
   background-color: #1364FF;
   /* Modal */
 }
+.modalDialogMenu {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  transition: opacity 400ms ease-in;
+  display: none;
+  pointer-events: none;
+}
+.modalDialogMenu:target {
+  display: block;
+  pointer-events: auto;
+}
+.modalDialogMenu > div {
+  width: 300px;
+  position: relative;
+  margin: 5% auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: #030335;
+}
+.close {
+  background: #606061;
+  color: #fff;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+  background: #f00;
+}
+.modalDialogMenu .modal_content {
+  padding-left: 5px;
+}
+.modalDialogMenu .modal_content h2,
+.modalDialogMenu .modal_content p {
+  text-align: center;
+  color: #fff;
+}
+.modalDialogMenu .modal_content a {
+  color: #fff;
+  text-shadow: 3px 3px 2px black;
+  text-decoration: none;
+}
+.modalDialogMenu .modal_content a:hover {
+  text-decoration: underline;
+}
+/*  */
 .modalDialog {
   position: fixed;
   font-family: Arial, Helvetica, sans-serif;
@@ -3004,6 +3063,9 @@ div.stockTicker span {
   }
 }
 @media all and (max-width: 385px) {
+  .modalDialogMenu > div {
+    width: 230px;
+  }
   .home_page-section {
     height: 800px;
     background: url(assets/images/Partners.jpg) no-repeat;

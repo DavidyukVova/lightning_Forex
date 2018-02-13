@@ -888,7 +888,7 @@ body {
 }
 .modalDialog .modal_content h2,
 .modalDialog .modal_content p {
-  text-align: justify;
+  text-align: center;
   color: #fff;
   text-shadow: 3px 3px 2px black;
 }
@@ -904,7 +904,6 @@ body {
   color: #fff;
   text-shadow: 3px 3px 2px black;
   text-decoration: none;
-
 }
 .modalDialog .modal_content a:hover {
   text-decoration: underline;
@@ -2161,12 +2160,7 @@ div.stockTicker span {
 }
 @media all and (max-width: 385px) {
   .modalDialog > div {
-    width: 250px;
-    position: relative;
-    margin: 2% auto;
-    padding: 5px;
-    border-radius: 10px;
-    background: #030335;
+    width: 230px;
   }
   .footer .footer__content {
     max-width: 320px;
