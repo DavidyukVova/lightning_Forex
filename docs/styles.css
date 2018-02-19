@@ -1722,15 +1722,7 @@ div.stockTicker span {
     right: 1%;
   }
 }
-@media all and (max-width: 1076px) {
-  .home_page-section .bottom-block {
-    padding-top: 27px;
-  }
-}
 @media all and (max-width: 1060px) {
-  .home_page-section .bottom-block {
-    padding-top: 76px;
-  }
   .content__item {
     max-width: 405px;
     height: 150px;
@@ -1772,6 +1764,11 @@ div.stockTicker span {
   }
   .platform-block__middle .platform-block__column + .platform-block__column {
     margin-left: 25px;
+  }
+}
+@media all and (max-width: 1013px) {
+  .home_page-section .bottom-block {
+    padding-top: 27px;
   }
 }
 @media all and (max-width: 984px) {
@@ -1838,23 +1835,18 @@ div.stockTicker span {
 }
 @media all and (max-width: 910px) {
   .home_page-section .bottom-block {
-    padding-top: 110px;
+    padding-top: 45px;
   }
 }
 @media all and (max-width: 894px) {
   .home_page-section .bottom-block {
-    padding-top: 137px;
+    padding-top: 134px;
     top: 630px;
-  }
-}
-@media all and (max-width: 894px) {
-  .home_page-section .bottom-block {
-    padding-top: 202px;
   }
 }
 @media all and (max-width: 890px) {
   .home_page-section .bottom-block {
-    padding-top: 164px;
+    padding-top: 76px;
     top: 692px;
   }
   .platform-block .images_container img {
@@ -1929,6 +1921,11 @@ div.stockTicker span {
   }
   .footer .footer__content {
     max-width: 600px;
+  }
+}
+@media all and (max-width: 790px) {
+  .home_page-section .bottom-block {
+    padding-top: 144px;
   }
 }
 @media all and (max-width: 735px) {
