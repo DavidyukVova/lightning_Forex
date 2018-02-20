@@ -1722,6 +1722,11 @@ div.stockTicker span {
     right: 1%;
   }
 }
+@media all and (max-width: 1076px) {
+  .home_page-section .bottom-block {
+    padding-top: 27px;
+  }
+}
 @media all and (max-width: 1060px) {
   .content__item {
     max-width: 405px;
@@ -1789,7 +1794,7 @@ div.stockTicker span {
     height: 1200px;
   }
   .home_page-section .bottom-block {
-    top: 722px;
+    top: 702px;
   }
   .content__block {
     width: 100%;
@@ -1835,7 +1840,7 @@ div.stockTicker span {
 }
 @media all and (max-width: 910px) {
   .home_page-section .bottom-block {
-    padding-top: 45px;
+    padding-top: 130px;
   }
 }
 @media all and (max-width: 894px) {
@@ -1846,7 +1851,7 @@ div.stockTicker span {
 }
 @media all and (max-width: 890px) {
   .home_page-section .bottom-block {
-    padding-top: 76px;
+    padding-top: 140px;
     top: 692px;
   }
   .platform-block .images_container img {
